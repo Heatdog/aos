@@ -5,3 +5,4 @@ exe: 	main.c
 
 clean:
 		-rm lab1_4 2>/dev/null
+		rm test
