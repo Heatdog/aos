@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include <errno.h>
 #include <string.h>
-#include <stdlib.h>
 
 const int buf_size = 1024;
 
