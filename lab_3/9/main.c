@@ -11,7 +11,7 @@ void child_disp(int sig) {
 }
 
 void child_code() {
-    //signal(SIGALRM, child_disp);
+    signal(SIGALRM, child_disp);
     alarm(1);
     pause();
     exit(0);
